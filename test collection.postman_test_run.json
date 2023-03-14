@@ -1,0 +1,62 @@
+{
+	"id": "8ecff890-af7e-4cf9-b16e-6056b87f51a1",
+	"name": "test collection",
+	"timestamp": "2023-01-18T13:36:57.435Z",
+	"collection_id": "24992594-882adfb4-4af2-4a7b-b1b6-96f2cde138cb",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c4395530-2dff-40bd-87a2-b4350aea77c6",
+			"name": "New Request",
+			"url": "https://reqres.in/api/register",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				243
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "09b2ad5b-0c85-4591-a16c-1c51f0cbeb13",
+			"name": "List Users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				25
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 268,
+	"collection": {
+		"requests": [
+			{
+				"id": "c4395530-2dff-40bd-87a2-b4350aea77c6",
+				"method": "POST"
+			},
+			{
+				"id": "09b2ad5b-0c85-4591-a16c-1c51f0cbeb13",
+				"method": "GET"
+			}
+		]
+	}
+}
